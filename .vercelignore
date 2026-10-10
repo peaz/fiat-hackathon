@@ -1,0 +1,11 @@
+internal/
+runtime/
+.agents/
+.codex/
+.aws/
+.git/
+.env
+.env.*
+AGENTS.md
+agent.md
+*.tsbuildinfo
