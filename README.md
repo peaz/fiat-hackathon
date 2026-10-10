@@ -36,8 +36,9 @@ The hosted version may differ from changes in the local checkout.
 
 - **Explorable garden:** original pixel scenery, avatar movement, community plots, wandering neighbours and sheep, and organisation stops.
 - **Community participation:** join or create a garden with room for up to 12, choose fictional parish companions, and draft a local meetup conversation.
+- **Gardener profile:** selectable word-cloud buttons for gifts, causes, personal intention and participation capacity. Eight concise cause groups map to the 17 research categories used for recommendations.
 - **Giving activities:** nine seeded illustrative quests, gift-based recommendations, size filters, daily small-giving invitations, accepted activities and self-reported completion. Participation bars show seeded signup counts plus your own acceptance; full quests prevent new acceptance.
-- **Parish quest studio:** create session-only quests with a title, purpose, duration, 1–500 volunteer places, help type and three steps. Published quests support acceptance, completion, garden growth and a Scripture-based reflection.
+- **Parish quest studio:** create session-only quests with a title, purpose, duration, 1–500 volunteer places, help type and three steps. Full-width fields and inline help-type choices keep the form easy to scan. Published quests support acceptance, completion, garden growth and a Scripture-based reflection.
 - **Personal growth:** seed-to-garden participation milestones, contribution flowers, gratitude, optional plans, a journal and reflections.
 - **Catholic pathways:** researched organisation and programme cards with official source links, availability caveats and a separate voluntary giving route.
 - **Faith and reflection:** Scripture references and labelled paraphrases, guided reflection cards, optional private notes and explicit simulated circle sharing. An illustrative Jesus character can be invited with **J** and stays for 30 seconds.
@@ -47,6 +48,8 @@ The hosted version may differ from changes in the local checkout.
 ## Prototype boundaries
 
 This is a frontend prototype using local fixtures and browser state. There is no backend, account system or shared participant database. Progress, reflections, photos and simulated conversations are temporary and reset when the page reloads; the completed introduction preference is stored locally in the browser.
+
+Participant-facing screens and save confirmations use concise language with fewer prototype reminders. This does not change the temporary storage or connect any live services.
 
 Gardens and neighbours are fictional. Activity completion is self-reported, and photos or notes are not uploaded. Invitation and sharing controls do not automatically send messages, register participants or confirm attendance. Circle reflection sharing updates a local board only; private notes are not shared automatically.
 

@@ -1,4 +1,3 @@
-import {research} from './data/catholic-research';
 import {useState} from 'react';
 import {PixelButton} from './ui/PixelButton';
 import {personalGoals} from './garden';
@@ -16,5 +15,26 @@ export const organisations=[
 ];
 export type Profile={name:string;gifts:string[];causes:string[];capacity:string};
 export const defaultProfile:Profile={name:'Neighbour',gifts:['Time'],causes:['welcoming-community'],capacity:'One small act'};
-export function ProfilePanel({profile,onSave,goalId,onGoal}:{profile:Profile;onSave:(p:Profile)=>void;goalId:string;onGoal:(id:string)=>void}){const [draft,setDraft]=useState(profile);const [intention,setIntention]=useState(goalId);function toggle(key:'gifts'|'causes',value:string){setDraft(p=>({...p,[key]:p[key].includes(value)?p[key].filter(v=>v!==value):[...p[key],value]}));}return <form className="profile-form" onSubmit={e=>{e.preventDefault();onGoal(intention);onSave({...draft,name:draft.name.trim()||'Neighbour'});}}><p>Your gifts and interests guide your next steps. Choose what fits this season of your life.</p><label>Gardener nickname<input maxLength={24} value={draft.name} onChange={e=>setDraft(p=>({...p,name:e.target.value}))}/></label><fieldset><legend>What could you share?</legend>{['Time','Skills','Listening','Resources'].map(g=><label className="check" key={g}><input type="checkbox" checked={draft.gifts.includes(g)} onChange={()=>toggle('gifts',g)}/>{g}</label>)}</fieldset><fieldset><legend>Causes close to your heart</legend>{research.causeTaxonomy.map(c=><label className="check" key={c.id}><input type="checkbox" checked={draft.causes.includes(c.id)} onChange={()=>toggle('causes',c.id)}/>{c.userIntention}</label>)}</fieldset><fieldset><legend>Your personal intention</legend>{personalGoals.map(g=><label className="check" key={g.id}><input type="radio" name="profile-intention" checked={intention===g.id} onChange={()=>setIntention(g.id)}/>{g.title}</label>)}</fieldset><fieldset><legend>What fits your life right now?</legend>{['One small act','A shared mission','Just exploring'].map(c=><label className="check" key={c}><input type="radio" name="capacity" checked={draft.capacity===c} onChange={()=>setDraft(p=>({...p,capacity:c}))}/>{c}</label>)}</fieldset><p className="demo-note">Only a nickname and preferences. No income, donation amount or financial details are requested. Saved for this session only.</p><PixelButton type="submit">Save my profile</PixelButton></form>}
+const profileCauses=[
+ {label:'Belonging',ids:['welcoming-community','inclusion']},
+ {label:'Care for neighbours',ids:['accompaniment','practical-service']},
+ {label:'Children & youth',ids:['children-faith','youth-belonging']},
+ {label:'Education',ids:['education','educator-support']},
+ {label:'Growing in faith',ids:['faith-understanding','access-to-formation']},
+ {label:'Creative & digital gifts',ids:['creative-service','digital-service']},
+ {label:'Care for seniors',ids:['ageing-with-dignity','clergy-care']},
+ {label:'Church community',ids:['leadership','church-future','stewardship']}
+];
+export function ProfilePanel({profile,onSave,goalId,onGoal}:{profile:Profile;onSave:(p:Profile)=>void;goalId:string;onGoal:(id:string)=>void}){
+ const [draft,setDraft]=useState(profile);const [intention,setIntention]=useState(goalId);
+ function toggleGift(value:string){setDraft(p=>({...p,gifts:p.gifts.includes(value)?p.gifts.filter(v=>v!==value):[...p.gifts,value]}));}
+ function toggleCause(ids:string[]){setDraft(p=>({...p,causes:ids.some(id=>p.causes.includes(id))?p.causes.filter(id=>!ids.includes(id)):[...p.causes,...ids]}));}
+ return <form className="profile-form profile-cloud" onSubmit={e=>{e.preventDefault();onGoal(intention);onSave({...draft,name:draft.name.trim()||'Neighbour'});}}>
+ <p>Choose a few gifts and causes that feel close to you.</p><label>Gardener nickname<input maxLength={24} value={draft.name} onChange={e=>setDraft(p=>({...p,name:e.target.value}))}/></label>
+ <fieldset><legend>What could you share?</legend><div className="profile-chips">{['Time','Skills','Listening','Resources'].map(g=><button type="button" key={g} aria-pressed={draft.gifts.includes(g)} onClick={()=>toggleGift(g)}>{g}</button>)}</div></fieldset>
+ <fieldset><legend>Causes close to your heart</legend><div className="profile-chips cause-cloud">{profileCauses.map(c=><button type="button" key={c.label} aria-pressed={c.ids.some(id=>draft.causes.includes(id))} onClick={()=>toggleCause(c.ids)}>{c.label}</button>)}</div></fieldset>
+ <fieldset><legend>Your personal intention</legend><div className="profile-chips">{personalGoals.map(g=><button type="button" key={g.id} aria-pressed={intention===g.id} onClick={()=>setIntention(g.id)}>{g.title}</button>)}</div></fieldset>
+ <fieldset><legend>What fits your life right now?</legend><div className="profile-chips">{['One small act','A shared mission','Just exploring'].map(c=><button type="button" key={c} aria-pressed={draft.capacity===c} onClick={()=>setDraft(p=>({...p,capacity:c}))}>{c}</button>)}</div></fieldset>
+ <PixelButton type="submit">Save my profile</PixelButton></form>
+}
 export function StewardshipStory(){const [choice,setChoice]=useState('');return <div className="stewardship-story"><p className="eyebrow">At the shared tool shed · Fictional story</p><h3>A gift that keeps giving</h3><p>Your circle has a small shared budget. A neighbour suggests buying twelve new tools, but the shed already has tools that can be repaired. Another group needs seeds.</p><p>What would you explore first?</p><div>{[['repair','Check needs, repair tools and discuss sharing the savings'],['buy','Ask whether new tools would solve a real need'],['pause','Pause until the group understands its responsibilities']].map(([id,label])=><button key={id} aria-pressed={choice===id} onClick={()=>setChoice(id)}>{label}</button>)}</div>{choice&&<p role="status">{choice==='repair'?'You make existing resources useful again. The group can freely decide whether the savings should support another need.':choice==='buy'?'Buying can be responsible when it serves a real need. Check what is usable and what will last before deciding.':'Taking time to understand responsibilities is also care. Generosity does not require neglecting essential needs.'} <strong>Stewardship begins with gratitude and thoughtful care for what is entrusted to us.</strong></p>}<small>No money moves and no choice earns loaves & fish. This is a reflection, not financial advice or a test of faith.</small></div>}
