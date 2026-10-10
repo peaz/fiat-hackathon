@@ -17,6 +17,7 @@ dist/
 .codex/
 
 # Generated evidence (keep the directory documentation)
+/internal/
 runtime/*
 !runtime/.gitkeep
 !runtime/README.md
