@@ -27,12 +27,12 @@ export const research = {
       "audience": "Catholics interested in accompaniment",
       "sourceUrl": "https://catholicleader.sg/introduction-to-accompaniment-acom/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "One-day introduction; fee includes GST and lunch. Vacancies unverified.",
+      "evidenceNote": "One-day introduction; fee includes GST and lunch. Vacancies unverified. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
+        "label": "Register",
         "url": "https://catholicleader.sg/introduction-to-accompaniment-acom/",
         "enabled": true
       },
@@ -70,12 +70,12 @@ export const research = {
       "audience": "Catholic leaders and those exploring leadership",
       "sourceUrl": "https://catholicleader.sg/a-leaders-spirituality-als/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Individual registration required; course recordings and reflective exercises.",
+      "evidenceNote": "Individual registration required; course recordings and reflective exercises. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
+        "label": "Register",
         "url": "https://catholicleader.sg/a-leaders-spirituality-als/",
         "enabled": true
       },
@@ -92,6 +92,49 @@ export const research = {
       "sensitiveContext": false
     },
     {
+      "id": "clc-fgs",
+      "organisationId": "CLC",
+      "officialTitle": "At the Feet of the Good Shepherd Retreat with CDSG",
+      "editorialHeadline": "Make space for renewal",
+      "actionType": "join",
+      "causeTags": [
+        "accompaniment",
+        "family-support"
+      ],
+      "availability": "future",
+      "publishGate": "needs_confirmation",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-25",
+      "timezone": "Asia/Singapore",
+      "scheduleText": null,
+      "venue": null,
+      "feeSGD": null,
+      "feeUnknown": true,
+      "audience": "People affected by divorce, separation or a hurting marriage",
+      "sourceUrl": "https://catholicleader.sg/",
+      "sourceReviewedAt": "2026-10-10",
+      "evidenceNote": "Homepage confirms dates and purpose; detail page inaccessible. Do not promise healing.",
+      "organiserConfirmedAt": null,
+      "capacityVerified": false,
+      "registrationUrl": null,
+      "cta": {
+        "label": "Enquire with organiser",
+        "url": "https://catholicleader.sg/",
+        "enabled": true
+      },
+      "rewardPolicy": {
+        "status": "proposed_not_active",
+        "tokens": null,
+        "requires": "Agreed organiser verification of completed participation",
+        "donationReward": false
+      },
+      "causeDetail": "People learning to accompany others with care",
+      "matchReasonTemplate": "You selected: I want people to feel heard and supported.",
+      "organisationName": "Catholic Leadership Centre",
+      "groupBookingVerified": false,
+      "sensitiveContext": true
+    },
+    {
       "id": "clc-elisha",
       "organisationId": "CLC",
       "officialTitle": "ELISHA Leadership Journey 2027",
@@ -101,24 +144,24 @@ export const research = {
         "leadership"
       ],
       "availability": "interest",
-      "publishGate": "needs_confirmation",
+      "publishGate": "draft_ready",
       "startDate": null,
       "endDate": null,
       "timezone": "Asia/Singapore",
-      "scheduleText": null,
+      "scheduleText": "January–July 2027 · register interest",
       "venue": null,
-      "feeSGD": null,
-      "feeUnknown": true,
+      "feeSGD": 1100,
+      "feeUnknown": false,
       "audience": "New and emerging Catholic leaders",
       "sourceUrl": "https://catholicleader.sg/elisha-leadership-journey-for-new-emerging-leaders/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "2027 interest invitation on homepage; cohort logistics require confirmation.",
+      "evidenceNote": "2027 interest invitation on homepage; cohort logistics require confirmation. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://catholicleader.sg/elisha-leadership-journey-for-new-emerging-leaders/",
+        "label": "Register interest",
+        "url": "https://forms.gle/D2uwEJMQzwdEsrec9",
         "enabled": true
       },
       "rewardPolicy": {
@@ -143,24 +186,24 @@ export const research = {
         "leadership"
       ],
       "availability": "interest",
-      "publishGate": "needs_confirmation",
+      "publishGate": "draft_ready",
       "startDate": null,
       "endDate": null,
       "timezone": "Asia/Singapore",
-      "scheduleText": null,
+      "scheduleText": "2027 leadership journey · register interest",
       "venue": null,
       "feeSGD": null,
       "feeUnknown": true,
       "audience": "Experienced Catholic leaders",
       "sourceUrl": "https://catholicleader.sg/elijah-leadership-journey/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "2027 interest invitation; ELISHA is not a prerequisite per homepage.",
+      "evidenceNote": "2027 interest invitation; ELISHA is not a prerequisite per homepage. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://catholicleader.sg/elijah-leadership-journey/",
+        "label": "Register interest",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSf1kr084HZ7uI0UWK9HFAD4lhRiwlDqj6KpKE31yEeNLJsqDg/viewform",
         "enabled": true
       },
       "rewardPolicy": {
@@ -229,7 +272,7 @@ export const research = {
         "educator-support"
       ],
       "availability": "future",
-      "publishGate": "needs_confirmation",
+      "publishGate": "draft_ready",
       "startDate": "2026-11-06",
       "endDate": "2026-11-06",
       "timezone": "Asia/Singapore",
@@ -240,13 +283,13 @@ export const research = {
       "audience": "Catholic educators in any school or educational institution",
       "sourceUrl": "https://www.accs.sg/catholic-educators-connect-2026/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Indexed official page supplies details; direct fetch failed. Fee unknown.",
+      "evidenceNote": "Indexed official page supplies details; direct fetch failed. Fee unknown. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://www.accs.sg/catholic-educators-connect-2026/",
+        "label": "Register",
+        "url": "https://tinyurl.com/register-CEC2026",
         "enabled": true
       },
       "rewardPolicy": {
@@ -369,13 +412,13 @@ export const research = {
       "audience": "Applicants interested in introductory theology",
       "sourceUrl": "https://www.ctis.sg/programmes",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Enquire about next intake, timetable, admission and fees; not drop-in.",
+      "evidenceNote": "Enquire about next intake, timetable, admission and fees; not drop-in. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
-        "url": "https://www.ctis.sg/programmes",
+        "label": "Apply",
+        "url": "https://www.ctis.sg/application",
         "enabled": true
       },
       "rewardPolicy": {
@@ -412,13 +455,13 @@ export const research = {
       "audience": "Certificate in Theology graduates or equivalent",
       "sourceUrl": "https://www.ctis.sg/programmes",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Eligibility prerequisite; confirm next intake and fees.",
+      "evidenceNote": "Eligibility prerequisite; confirm next intake and fees. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
-        "url": "https://www.ctis.sg/programmes",
+        "label": "Apply",
+        "url": "https://www.ctis.sg/application",
         "enabled": true
       },
       "rewardPolicy": {
@@ -498,13 +541,13 @@ export const research = {
       "audience": "Adult catechists 19+; junior 15–18; trainee 13–15, with distinct sacramental requirements",
       "sourceUrl": "https://www.catechesis.org.sg/be-a-catechist",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Read full eligibility. Enquiry and formation precede approved service.",
+      "evidenceNote": "Read full eligibility. Enquiry and formation precede approved service. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
-        "url": "https://www.catechesis.org.sg/be-a-catechist",
+        "label": "Volunteer interest",
+        "url": "https://tinyurl.com/iamcalled-catechist",
         "enabled": true
       },
       "rewardPolicy": {
@@ -616,24 +659,24 @@ export const research = {
         "inclusion"
       ],
       "availability": "interest",
-      "publishGate": "needs_confirmation",
+      "publishGate": "draft_ready",
       "startDate": null,
       "endDate": null,
       "timezone": "Asia/Singapore",
-      "scheduleText": null,
+      "scheduleText": "2027 intake",
       "venue": null,
       "feeSGD": null,
       "feeUnknown": true,
       "audience": "Confirm programme eligibility with OFC",
-      "sourceUrl": "https://www.catechesis.org.sg/",
+      "sourceUrl": "https://www.catechesis.org.sg/Programmes/Bridging-Programme",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Homepage says 2027 registration open; detail page lacks accessible logistics.",
+      "evidenceNote": "Homepage says 2027 registration open; detail page lacks accessible logistics. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://www.catechesis.org.sg/",
+        "label": "Register for 2027",
+        "url": "https://tinyurl.com/2027BPRegistration",
         "enabled": true
       },
       "rewardPolicy": {
@@ -645,6 +688,92 @@ export const research = {
       "causeDetail": "Children and young people discovering and growing in faith",
       "matchReasonTemplate": "You selected: I want children to grow in a welcoming faith community.",
       "organisationName": "Office for Catechesis",
+      "groupBookingVerified": false,
+      "sensitiveContext": false
+    },
+    {
+      "id": "one-pln",
+      "organisationId": "ONE",
+      "officialTitle": "Parish Leaders Network — Session 5",
+      "editorialHeadline": "Help your parish grow in welcome",
+      "actionType": "learn",
+      "causeTags": [
+        "welcoming-community",
+        "leadership"
+      ],
+      "availability": "invitation_only",
+      "publishGate": "restricted",
+      "startDate": "2026-10-24",
+      "endDate": "2026-10-24",
+      "timezone": "Asia/Singapore",
+      "scheduleText": "09:00–12:30",
+      "venue": "Training & Development Centre, Catholic Junior College",
+      "feeSGD": null,
+      "feeUnknown": true,
+      "audience": "Only parish leaders nominated by their parish priest",
+      "sourceUrl": "https://one.org.sg/event/parish-leaders-network/",
+      "sourceReviewedAt": "2026-10-10",
+      "evidenceNote": "Clear eligibility restriction; page also contains placeholders. Confirm logistics before publication.",
+      "organiserConfirmedAt": null,
+      "capacityVerified": false,
+      "registrationUrl": null,
+      "cta": {
+        "label": "View eligibility",
+        "url": "https://one.org.sg/event/parish-leaders-network/",
+        "enabled": true
+      },
+      "rewardPolicy": {
+        "status": "proposed_not_active",
+        "tokens": null,
+        "requires": "Agreed organiser verification of completed participation",
+        "donationReward": false
+      },
+      "causeDetail": "People seeking welcome and connection in Church communities",
+      "matchReasonTemplate": "You selected: I want someone new to feel they belong.",
+      "organisationName": "Office for the New Evangelisation",
+      "groupBookingVerified": false,
+      "sensitiveContext": false
+    },
+    {
+      "id": "one-scf",
+      "organisationId": "ONE",
+      "officialTitle": "Strategic Communion Fellowship 2026",
+      "editorialHeadline": "Connect across our shared mission",
+      "actionType": "join",
+      "causeTags": [
+        "welcoming-community",
+        "leadership"
+      ],
+      "availability": "unresolved",
+      "publishGate": "quarantined",
+      "startDate": null,
+      "endDate": null,
+      "timezone": "Asia/Singapore",
+      "scheduleText": null,
+      "venue": null,
+      "feeSGD": null,
+      "feeUnknown": true,
+      "audience": "Body describes Archdiocesan staff; confirm intended audience",
+      "sourceUrl": "https://one.org.sg/event/scf26/",
+      "sourceReviewedAt": "2026-10-10",
+      "evidenceNote": "Conflicting November header, April schedule, conference title and staff-fellowship description. Do not publish date, fee or venue.",
+      "organiserConfirmedAt": null,
+      "capacityVerified": false,
+      "registrationUrl": null,
+      "cta": {
+        "label": "Await organiser correction",
+        "url": "https://one.org.sg/event/scf26/",
+        "enabled": false
+      },
+      "rewardPolicy": {
+        "status": "proposed_not_active",
+        "tokens": null,
+        "requires": "Agreed organiser verification of completed participation",
+        "donationReward": false
+      },
+      "causeDetail": "People seeking welcome and connection in Church communities",
+      "matchReasonTemplate": "You selected: I want someone new to feel they belong.",
+      "organisationName": "Office for the New Evangelisation",
       "groupBookingVerified": false,
       "sensitiveContext": false
     },
@@ -702,24 +831,24 @@ export const research = {
         "faith-understanding"
       ],
       "availability": "listed_open_unverified",
-      "publishGate": "needs_confirmation",
-      "startDate": null,
-      "endDate": null,
+      "publishGate": "draft_ready",
+      "startDate": "2026-08-02",
+      "endDate": "2027-06-06",
       "timezone": "Asia/Singapore",
-      "scheduleText": null,
+      "scheduleText": "2 August 2026–6 June 2027 · organiser publishes signups",
       "venue": null,
       "feeSGD": null,
       "feeUnknown": true,
       "audience": "Young people exploring Catholic faith; confirm age/intake requirements",
-      "sourceUrl": "https://www.oyp.org.sg/",
+      "sourceUrl": "https://www.oyp.org.sg/oyp-rciy",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Homepage advertises sign-ups; linked form inaccessible. Dates, fees and capacity unknown.",
+      "evidenceNote": "Homepage advertises sign-ups; linked form inaccessible. Dates, fees and capacity unknown. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://www.oyp.org.sg/",
+        "label": "Register",
+        "url": "https://tinyurl.com/oyprciy26",
         "enabled": true
       },
       "rewardPolicy": {
@@ -745,24 +874,24 @@ export const research = {
         "faith-understanding"
       ],
       "availability": "listed_open_unverified",
-      "publishGate": "needs_confirmation",
+      "publishGate": "draft_ready",
       "startDate": null,
       "endDate": null,
       "timezone": "Asia/Singapore",
-      "scheduleText": null,
+      "scheduleText": "See registration form for retreat dates",
       "venue": null,
       "feeSGD": null,
       "feeUnknown": true,
       "audience": "Young working adults; exact age limits unverified",
       "sourceUrl": "https://www.oyp.org.sg/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Retreat advertised; no confirmed event date or active form retrieved.",
+      "evidenceNote": "Retreat advertised; no confirmed event date or active form retrieved. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://www.oyp.org.sg/",
+        "label": "Register",
+        "url": "https://tinyurl.com/oyp-treasure18",
         "enabled": true
       },
       "rewardPolicy": {
@@ -787,24 +916,24 @@ export const research = {
         "youth-belonging"
       ],
       "availability": "undated",
-      "publishGate": "needs_confirmation",
+      "publishGate": "draft_ready",
       "startDate": null,
       "endDate": null,
       "timezone": "Asia/Singapore",
-      "scheduleText": null,
+      "scheduleText": "Information day · see registration form for details",
       "venue": null,
       "feeSGD": null,
       "feeUnknown": true,
       "audience": "Prospective OYP contingent pilgrims; confirm eligibility",
       "sourceUrl": "https://www.oyp.org.sg/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Info-day date unknown. 2027 refers to WYD, not necessarily this info day.",
+      "evidenceNote": "Info-day date unknown. 2027 refers to WYD, not necessarily this info day. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://www.oyp.org.sg/",
+        "label": "Register for info day",
+        "url": "https://tinyurl.com/WYD27Info",
         "enabled": true
       },
       "rewardPolicy": {
@@ -841,13 +970,13 @@ export const research = {
       "audience": "NSFs/pre-enlistees, diploma students, university students and working adults",
       "sourceUrl": "https://www.oyp.org.sg/",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Life-stage community enquiry; meeting dates, suitability and capacity require OYP confirmation.",
+      "evidenceNote": "Life-stage community enquiry; meeting dates, suitability and capacity require OYP confirmation. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
-        "url": "https://www.oyp.org.sg/",
+        "label": "Find a community",
+        "url": "https://www.oyp.org.sg/communities",
         "enabled": true
       },
       "rewardPolicy": {
@@ -884,12 +1013,12 @@ export const research = {
       "audience": "Volunteers offering design, writing, photography or video skills",
       "sourceUrl": "https://www.catholicfoundation.sg/volunteers",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Volunteer interest pathway; no specific shift or acceptance guaranteed.",
+      "evidenceNote": "Volunteer interest pathway; no specific shift or acceptance guaranteed. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
+        "label": "Volunteer interest",
         "url": "https://www.catholicfoundation.sg/volunteers",
         "enabled": true
       },
@@ -927,12 +1056,12 @@ export const research = {
       "audience": "Volunteers interested in events or administrative support",
       "sourceUrl": "https://www.catholicfoundation.sg/volunteers",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Editorial grouping of advertised roles; hospitality and operations mentioned, no active shift verified.",
+      "evidenceNote": "Editorial grouping of advertised roles; hospitality and operations mentioned, no active shift verified. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "View organiser information",
+        "label": "Volunteer interest",
         "url": "https://www.catholicfoundation.sg/volunteers",
         "enabled": true
       },
@@ -1001,24 +1130,24 @@ export const research = {
         "ageing-with-dignity"
       ],
       "availability": "future",
-      "publishGate": "needs_confirmation",
+      "publishGate": "draft_ready",
       "startDate": "2026-11-02",
       "endDate": "2026-11-02",
       "timezone": "Asia/Singapore",
       "scheduleText": "09:30–14:30",
-      "venue": "Crossings Cafe, Catholic Centre, 55 Waterloo St, Level 1",
-      "feeSGD": null,
-      "feeUnknown": true,
+      "venue": "Catholic Centre, Level 1 (Crossings Cafe), 55 Waterloo Street",
+      "feeSGD": 150,
+      "feeUnknown": false,
       "audience": "Retirees",
       "sourceUrl": "https://www.catholicfoundation.sg/retirementseminar",
       "sourceReviewedAt": "2026-10-10",
-      "evidenceNote": "Year inferred from embedded poster filename containing 2 Nov 2026. Confirm poster/form; fee unknown.",
+      "evidenceNote": "Year inferred from embedded poster filename containing 2 Nov 2026. Confirm poster/form; fee unknown. Registration/action destination rechecked on official page 10 October 2026; no form submitted or seat availability verified.",
       "organiserConfirmedAt": null,
       "capacityVerified": false,
       "registrationUrl": null,
       "cta": {
-        "label": "Enquire with organiser",
-        "url": "https://www.catholicfoundation.sg/retirementseminar",
+        "label": "Register",
+        "url": "https://forms.gle/Z74FpgdM28c2i9cC6",
         "enabled": true
       },
       "rewardPolicy": {
@@ -1298,6 +1427,11 @@ export const research = {
       "id": "clergy-care",
       "causeDetail": "Welfare and care for senior clergy",
       "userIntention": "I want to care for those who have cared for us."
+    },
+    {
+      "id": "family-support",
+      "causeDetail": "Formation and retreat support for people facing difficult family relationships",
+      "userIntention": "I want to explore support for family relationships."
     }
   ]
 };
