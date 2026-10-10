@@ -100,3 +100,10 @@
 .compact-media-links a { display: flex; align-items: center; gap: 10px; padding: 12px; border: 1px solid #395775; color: #18243d; font: 16px Georgia,serif; line-height: 1.35; }
 .compact-media-links a > span:nth-child(2) { flex: 1; }
 .pathway-tile:focus-visible, .pathway-detail-close:focus-visible, .compact-media-links a:focus-visible { outline: 3px solid #ae4936; outline-offset: 4px; }
+
+.qr-button{font-size:10px;flex-shrink:0}.share-qr-overlay{position:fixed;inset:0;margin:auto;width:min(1100px,96vw);max-width:none;height:94dvh;max-height:94dvh;padding:28px;background:var(--paper);border:4px solid var(--ink);box-shadow:8px 8px var(--blue);text-align:center;overflow:auto}.share-qr-overlay[open]{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px}.share-qr-overlay h1{font:clamp(24px,4vw,44px)/1.5 var(--pixel);margin:0}.share-qr-overlay img{width:min(62dvh,620px);max-width:80vw;max-height:62dvh;object-fit:contain;background:white;border:3px solid var(--ink);image-rendering:pixelated}.share-qr-overlay p{font:20px/1.4 Georgia;margin:0}.share-qr-overlay a{font:16px Georgia}.share-qr-close{position:absolute;right:18px;top:18px;width:44px;height:44px;background:var(--ink);color:var(--paper);border:2px solid var(--paper);font:30px Georgia;cursor:pointer}.share-qr-overlay button:focus-visible,.qr-button:focus-visible{outline:3px solid var(--rose);outline-offset:4px}
+
+/* Let the opening garden reminder clear itself after reading. */
+.world-tip{animation:world-tip-dismiss 1s ease 8s forwards;pointer-events:none}
+@keyframes world-tip-dismiss{from{opacity:1;visibility:visible}to{opacity:0;visibility:hidden}}
+@media(prefers-reduced-motion:reduce){.world-tip{animation-duration:.01s}}
