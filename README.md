@@ -19,7 +19,7 @@ Built for the Catholic FIAT hackathon organised by the Archdiocese of Singapore.
 
 [Open Our Garden](https://fiat-hackathon-iota.vercel.app)
 
-The experience currently targets desktop browsers. Walk by clicking open ground or using the arrow keys / WASD. Visit garden signs and organisation buildings, explore the quest board, and use **Go to my garden** to return home. The welcome introduction can be replayed from Help.
+The experience currently targets desktop browsers. Walk by clicking open ground or using the arrow keys / WASD. Visit garden signs and organisation buildings, explore the quest board, and use **Go to my garden** to return home. The welcome introduction can be replayed using the **I** button or from Help. Open the Giving Store from the wallet, and use the labelled HUD buttons for **Parish team** and **My profile**.
 
 A suggested walkthrough:
 
@@ -28,6 +28,7 @@ A suggested walkthrough:
 3. Accept an activity, select illustrative companions or prepare a friend invitation.
 4. Mark the activity complete and see your contribution garden grow.
 5. Pause to reflect, explore researched Catholic pathways, or visit the Giving Store.
+6. Open **Parish team** to create a quest with a purpose, duration, volunteer capacity, help type and three practical steps; find it on the quest board and try its participation flow.
 
 The hosted version may differ from changes in the local checkout.
 
@@ -35,10 +36,11 @@ The hosted version may differ from changes in the local checkout.
 
 - **Explorable garden:** original pixel scenery, avatar movement, community plots, wandering neighbours and sheep, and organisation stops.
 - **Community participation:** join or create a garden with room for up to 12, choose fictional parish companions, and draft a local meetup conversation.
-- **Giving activities:** illustrative quests, gift-based recommendations, daily small-giving invitations, accepted activities and self-reported completion.
+- **Giving activities:** nine seeded illustrative quests, gift-based recommendations, size filters, daily small-giving invitations, accepted activities and self-reported completion. Participation bars show seeded signup counts plus your own acceptance; full quests prevent new acceptance.
+- **Parish quest studio:** create session-only quests with a title, purpose, duration, 1–500 volunteer places, help type and three steps. Published quests support acceptance, completion, garden growth and a Scripture-based reflection.
 - **Personal growth:** seed-to-garden participation milestones, contribution flowers, gratitude, optional plans, a journal and reflections.
 - **Catholic pathways:** researched organisation and programme cards with official source links, availability caveats and a separate voluntary giving route.
-- **Faith and reflection:** Scripture references and labelled paraphrases, activity reflection prompts, and an illustrative Jesus character that can be invited with **J**.
+- **Faith and reflection:** Scripture references and labelled paraphrases, guided reflection cards, optional private notes and explicit simulated circle sharing. An illustrative Jesus character can be invited with **J** and stays for 30 seconds.
 - **Sharing:** prepared invitation text, clipboard copying and the browser's native share menu where supported.
 - **Giving Store:** a local Loaves & Fish balance and illustrative pooled causes and café treats.
 
@@ -46,7 +48,9 @@ The hosted version may differ from changes in the local checkout.
 
 This is a frontend prototype using local fixtures and browser state. There is no backend, account system or shared participant database. Progress, reflections, photos and simulated conversations are temporary and reset when the page reloads; the completed introduction preference is stored locally in the browser.
 
-Gardens and neighbours are fictional. Activity completion is self-reported, and photos or notes are not uploaded. Invitation and sharing controls do not automatically send messages, register participants or confirm attendance.
+Gardens and neighbours are fictional. Activity completion is self-reported, and photos or notes are not uploaded. Invitation and sharing controls do not automatically send messages, register participants or confirm attendance. Circle reflection sharing updates a local board only; private notes are not shared automatically.
+
+The parish quest studio is an unauthenticated presentation workspace. Created quests disappear on reload. Seeded participant counts are illustrative; accepting adds only the current browser user, and selecting companions does not register them. No live parish publishing, volunteer registration or capacity coordination is connected.
 
 Loaves & Fish are symbolic and have no cash value. Store contributions, sponsors and vouchers are concepts: no payments, donations, partner agreements or redemption are processed. Participation milestones do not measure spiritual maturity; prayer and private reflections earn no currency.
 

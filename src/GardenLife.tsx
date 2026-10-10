@@ -16,7 +16,7 @@ export function ScriptureEncounter({pos}:{pos:{x:number;y:number}}){
  useEffect(()=>{
   let timer:ReturnType<typeof setTimeout>;let alive=true;let active=false;
   const schedule=()=>{timer=setTimeout(appear,(20+Math.random()*30)*60000);};
-  const appear=()=>{if(active||!alive)return;clearTimeout(timer);active=true;const p=position.current;setVisit({x:Math.min(95,Math.max(5,p.x+2)),y:Math.min(95,Math.max(5,p.y)),verse:encouragements[Math.floor(Math.random()*encouragements.length)],phase:'appearing'});timer=setTimeout(()=>{setVisit(v=>v?{...v,phase:'present'}:null);timer=setTimeout(()=>{setVisit(v=>v?{...v,phase:'leaving'}:null);timer=setTimeout(()=>{active=false;setVisit(null);schedule();},400);},60000);},400);};
+  const appear=()=>{if(active||!alive)return;clearTimeout(timer);active=true;const p=position.current;setVisit({x:Math.min(95,Math.max(5,p.x+2)),y:Math.min(95,Math.max(5,p.y)),verse:encouragements[Math.floor(Math.random()*encouragements.length)],phase:'appearing'});timer=setTimeout(()=>{setVisit(v=>v?{...v,phase:'present'}:null);timer=setTimeout(()=>{setVisit(v=>v?{...v,phase:'leaving'}:null);timer=setTimeout(()=>{active=false;setVisit(null);schedule();},400);},30000);},400);};
   const key=(e:KeyboardEvent)=>{const target=e.target as HTMLElement;if(e.repeat||e.ctrlKey||e.metaKey||e.altKey||target.closest('input,textarea,select,[contenteditable="true"]'))return;if(e.key.toLowerCase()==='j'){e.preventDefault();appear();}};
   timer=setTimeout(appear,60000);window.addEventListener('keydown',key);window.addEventListener('garden-jesus',appear);
   return()=>{alive=false;clearTimeout(timer);window.removeEventListener('keydown',key);window.removeEventListener('garden-jesus',appear);};
