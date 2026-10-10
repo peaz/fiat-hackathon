@@ -9,11 +9,11 @@ Built for the Catholic FIAT hackathon organised by the Archdiocese of Singapore.
 ## Team — Army of Angels
 
 - **Patrick A. Tan** — Team leader
-- **Ken Ng**
-- **Bernard**
 - **Coleen**
 - **Daphne**
+- **Bernard**
 - **Jude Lim**
+- **Ken Ng**
 
 ## Explore the prototype
 
