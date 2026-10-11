@@ -121,7 +121,6 @@ React 19, TypeScript and Vite, with plain CSS and a self-hosted Press Start 2P f
 | `src/ui/` | Shared design tokens and UI primitives |
 | `public/` | Static assets, including sourced organisation logos |
 | `docs/screenshots/` | README screenshots from the built app |
-| `internal/` | Local, ignored specs, research, source materials, project notes and tests |
 | `runtime/` | Ignored local screenshots, logs and generated evidence |
 
 ## Development
