@@ -1,8 +1,8 @@
-# Our Garden 🌱
+# New Eden 🌱
 
 **A Catholic stewardship prototype by Army of Angels for FIAT · Catholic Hackathon 2026.**
 
-Our Garden invites people to recognise the gifts they have received, share their time, talents and resources, and grow in community. An explorable pixel garden turns small acts of care into a visible story of participation: receive, share, belong and reflect.
+New Eden invites people to recognise the gifts they have received, share their time, talents and resources, and grow in community. An explorable pixel garden turns small acts of care into a visible story of participation: receive, share, belong and reflect.
 
 Built for the Catholic FIAT hackathon organised by the Archdiocese of Singapore.
 
@@ -17,7 +17,7 @@ Built for the Catholic FIAT hackathon organised by the Archdiocese of Singapore.
 
 ## Explore the prototype
 
-[Open Our Garden](https://fiat-hackathon-iota.vercel.app)
+[Open New Eden](https://fiat-hackathon-iota.vercel.app)
 
 The experience supports desktop and mobile browsers. On phones, use **Explore map** to reach gardens, organisations and gifts; the world is shown at half scale with touch-friendly navigation. Walk by clicking open ground or using the arrow keys / WASD. Visit garden signs and organisation buildings, explore the quest board, and use **Go to my garden** to return home. The welcome introduction can be replayed using the **I** button or from Help. Open the Giving Store from the wallet, and use the labelled HUD buttons for **Parish team** and **My profile**.
 
