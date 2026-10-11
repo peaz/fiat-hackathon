@@ -38,6 +38,18 @@
 /* Render the mobile world at 50% scale without shrinking the HUD. */
 @media(max-width:900px){.game-world .map{zoom:.5}}
 @media(max-width:900px){.stewardship-learning{padding:14px}.learning-heading{display:block}.learning-tabs{margin:12px 0;flex-wrap:wrap}.learning-prompt{font-size:17px}.learning-actions .pixel-button{width:100%}}
-@media(max-width:600px){.quest-daily-row{grid-template-columns:minmax(0,1fr);gap:12px}.quest-daily-row .learning-actions .pixel-button{width:auto}}
+@media(max-width:600px){
+ .quest-daily-row{grid-template-columns:minmax(0,1fr);gap:10px;margin-bottom:16px}
+ .quest-daily-row .stewardship-learning,.quest-daily-row .daily-gift{padding:12px}
+ .quest-daily-row .daily-gift{gap:4px}
+ .quest-daily-row h3{font-size:19px;margin:4px 0 6px}
+ .quest-daily-row p{font-size:15px;line-height:1.35;margin:6px 0 8px}
+ .quest-daily-row .eyebrow{margin-bottom:4px}
+ .quest-daily-row .learning-tabs{margin:6px 0;gap:6px}
+ .quest-daily-row .learning-tabs button{flex:1;font-size:13px;padding:6px 8px}
+ .quest-daily-row .pixel-button{margin-bottom:4px;padding:8px 10px}
+ .quest-daily-row .learning-actions .pixel-button{width:auto}
+ .quest-daily-row .stewardship-learning>a{margin-top:0}
+}
 @media(max-width:900px){.today-scroll{top:12px;left:12px;width:44px;height:44px}.today-scroll span{font-size:26px}}
 @media(max-width:900px){.game-world:has(.today-scroll) .world-tip{top:84px}}

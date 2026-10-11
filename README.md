@@ -19,7 +19,7 @@ Built for the Catholic FIAT hackathon organised by the Archdiocese of Singapore.
 
 [Open New Eden](https://fiat-hackathon-iota.vercel.app)
 
-The experience supports desktop and mobile browsers. On phones, use **Explore map** to reach gardens, organisations and gifts; the world is shown at half scale with touch-friendly navigation. Walk by clicking open ground or using the arrow keys / WASD. Visit garden signs and organisation buildings, explore the quest board, and use **Go to my garden** to return home. The welcome introduction can be replayed using the **I** button or from Help. Open the Giving Store from the wallet, and use the labelled HUD buttons for **Parish team** and **My profile**.
+The experience supports desktop and mobile browsers. On phones, the world is shown at half scale; use the touch-friendly map signs and bottom toolbar to navigate. Walk by clicking open ground or using the arrow keys / WASD. Visit garden signs and organisation buildings, explore the quest board, and use **Go to my garden** to return home. The Mustard Seed introduction can be replayed using the **I** button or from Help. Open the Giving Store from the wallet, and use the labelled HUD buttons for **Parish team** and **My profile**.
 
 A suggested walkthrough:
 
@@ -29,16 +29,18 @@ A suggested walkthrough:
 4. Mark the activity complete and see your contribution garden grow.
 5. Pause to reflect, explore researched Catholic pathways, or visit the Giving Store.
 6. Open **Parish team** to create a quest with a purpose, duration, volunteer capacity, help type and three practical steps; find it on the quest board and try its participation flow.
+7. Switch to **Surveys** to draft a parish or Mass-specific survey, then answer it in Today’s scroll and review local response counts.
 
-The hosted version may differ from changes in the local checkout.
+The screenshots below show the local build. The hosted version may differ from changes in the local checkout.
 
 ## What works
 
 - **Explorable garden:** original pixel scenery, avatar movement, community plots, wandering neighbours and sheep, and organisation stops.
 - **Community participation:** join or create a garden with room for up to 12 and choose fictional parish companions. A collapsible meetup form offers the next six weekends and a St Mary’s Mass selection based on a user-supplied schedule; proposals remain local.
 - **Gardener profile:** selectable word-cloud buttons for gifts, causes, personal intention and participation capacity. Eight concise cause groups map to the 17 research categories used for recommendations.
-- **Today’s scroll:** a map shortcut opens seven rotating original daily learning topics, weekly circle learning and a daily small act. Learning follows reading, exercise and reflection, with one symbolic loaf per dated daily or weekly completion. The scroll disappears after today’s learning and small act are complete; reopening preserves session progress. Content is inspired by God, Money & Me themes and does not certify official course completion.
+- **Today’s scroll:** a compact map icon opens seven rotating original daily learning topics, weekly circle learning, a daily small act and parish surveys. Learning follows reading, exercise and reflection, with one symbolic loaf per dated daily or weekly completion. The scroll disappears after today’s learning, small act and available surveys are complete; reopening preserves session progress. Content is inspired by God, Money & Me themes and does not certify official course completion.
 - **Giving activities:** nine seeded illustrative quests, gift-based recommendations, size filters, daily small-giving invitations, accepted activities and self-reported completion. Participation bars show seeded signup counts plus your own acceptance; full quests prevent new acceptance.
+- **Parish surveys:** the Parish team editor supports one to five questions with two to six choices each, targeted to everyone in the demo parish or a named Mass. Today’s scroll includes a sample survey and newly posted surveys. Participants answer each survey once per session for one symbolic loaf; the local insights list shows per-question counts.
 - **Parish quest studio:** create session-only quests with a title, purpose, duration, 1–500 volunteer places, help type and three steps. Full-width fields and inline help-type choices keep the form easy to scan. Published quests support acceptance, completion, garden growth and a Scripture-based reflection.
 - **Personal growth:** seed-to-garden participation milestones, contribution flowers, gratitude, optional plans, a journal and reflections.
 - **Catholic pathways:** researched organisation and programme cards with official source links, availability caveats and a separate voluntary giving route.
@@ -66,6 +68,10 @@ Captured from the current local production build using fictional fixture data.
 
 ![Prayer, time and care, and shared cause options](docs/screenshots/giving-store.png)
 
+### Parish surveys
+
+![Parish survey editor](docs/screenshots/parish-surveys.png)
+
 ### Mobile quests
 
 ![Mobile quest board with touch-friendly cards](docs/screenshots/quests-mobile.png)
@@ -78,7 +84,7 @@ Participant-facing screens and save confirmations use concise language with fewe
 
 Gardens and neighbours are fictional. Activity completion is self-reported, and photos or notes are not uploaded. Invitation and sharing controls do not automatically send messages, register participants or confirm attendance. Circle reflection sharing updates a local board only; private notes are not shared automatically.
 
-The parish quest studio is an unauthenticated presentation workspace. Created quests disappear on reload. Seeded participant counts are illustrative; accepting adds only the current browser user, and selecting companions does not register them. No live parish publishing, volunteer registration or capacity coordination is connected.
+The parish quest studio and survey editor are unauthenticated presentation workspaces. Created quests and surveys disappear on reload. Survey audience labels and response counts are local examples; no Mass attendance or parish membership is verified. Seeded participant counts are illustrative; accepting adds only the current browser user, and selecting companions does not register them. No live parish publishing, volunteer registration or capacity coordination is connected.
 
 Loaves & Fish are symbolic and have no cash value. Store pools and their milestones are illustrative: no payments or donations are processed. Saving a prayer or care intention does not verify completion or send a message. Participation milestones do not measure spiritual maturity; prayer and private reflections earn no currency.
 
